@@ -1,0 +1,44 @@
+/* style.css */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('https://img.freepik.com/free-vector/beautiful-book-club-pattern-illustration_23-2149306088.jpg?t=st=1735219985~exp=1735223585~hmac=ef209e02456cbad94b1e69617a3763401896d263657ce41f8a2a7d1983bdcaf2&w=740');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+footer {
+  margin-top: auto;  /* Ensures the footer is pushed to the bottom */
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+  .CUSTOM-HEADER{
+    background-color: #9B3922;
+    color: #E8D8C4#C7B7A3;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .search-heading{
+    font-family:'Times New Roman', Times, serif;
+  }
+  .search_button {
+    background-color: #9B3922;
+  }
+  
+  .search_button:hover {
+    background-color: #7A2B1A;
+  }
+  .book-cover {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+
+  
