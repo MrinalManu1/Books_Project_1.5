@@ -18,7 +18,14 @@ footer {
   padding: 20px 0;
   width: 100%;
 }
-
+.book-details-box {
+  background-color: #F2E2B1; /* soft paper-like tone */
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+  max-width: 700px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #2e2e2e;
+}
   .CUSTOM-HEADER{
     background-color: #9B3922;
     color: #E8D8C4#C7B7A3;

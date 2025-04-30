@@ -1,7 +1,34 @@
 <body>
     <%- include('partials/header') %>
-
+    <div class="container mt-4 d-flex justify-content-center">
+      <div class="book-details-box p-4">
+        
+        <% if (book.covers && book.covers.length > 0) { %>
+          <div class="text-center mb-3">
+            <img src="https://covers.openlibrary.org/b/id/<%= book.covers[0] %>-L.jpg" class="img-fluid rounded shadow" alt="Book Cover" style="max-height: 400px;">
+          </div>
+        <% } %>
     
+        <h2 class="text-center mb-3"><%= book.title %></h2>
+    
+        <p><strong>Description:</strong>
+          <%= book.description?.value || book.description || "No description available." %>
+        </p>
+    
+        <% if (book.subjects) { %>
+          <p><strong>Subjects:</strong> <%= book.subjects.join(", ") %></p>
+        <% } %>
+    
+        <% if (book.first_publish_date) { %>
+          <p><strong>First Published:</strong> <%= book.first_publish_date %></p>
+        <% } %>
+    
+        <div class="text-center mt-4">
+          <a href="/" class="btn btn-primary">Back to Home</a>
+        </div>
+    
+      </div>
+    </div>
 
     <%- include('partials/footer') %> 
 </body>
