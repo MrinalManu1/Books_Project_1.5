@@ -17,7 +17,7 @@ This is a simple **Book Search Web App** that allows users to search for books u
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/MrinalManu1/Book_Project_1.5.git
+   git clone https://github.com/MrinalManu1/Books_Project_1.5.git
    ```
 2. Navigate to the project directory:
    ```sh
